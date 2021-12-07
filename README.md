@@ -55,4 +55,4 @@ I have provided the pretrained weights with following configuration
 | Multiheaded Attention layers | 2 |
 
 This is cofiguration of my model, for which I have provided a pretrained weights which thus can be finetuned by training for more time over the same dataset as well as some
-others too. If you want my code then you can mail me at [Mail here](gruhitspatel15@gmail.com)
+others too. If you want my code then you can mail me at [Mail here](mailto:gruhitspatel15@gmail.com?subject=[Github]%20Request%20for%20Encoders)
