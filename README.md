@@ -27,6 +27,8 @@ of Multi-headed Attention that resides at the core of transformer and is respons
 For example for a given sentence: There was a **[mask]** near the river bank. A normal human will focus on the river bank in order to predict the right word for the **[mask]**.
 That's excatly what a Multi-headed attention do.
 
+[Attention is all you need](https://arxiv.org/pdf/1706.03762.pdf)
+
 ## Model Architecture
 ------
 
