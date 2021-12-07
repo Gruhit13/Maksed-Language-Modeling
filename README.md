@@ -38,3 +38,21 @@ minimal configurations the model size was upto +3M parameters. One of the cause 
 I combined IMDB movies review dataset with the ROC stories dataset in order to satisfy 2 task
 1) Getting long range sentences, fulfilled by IMDB dataset
 2) Getting a meaning ful sentneces, fulfilled by ROC stories dataset.
+
+The main reason for combining this two dataset is firstly I needed a dataset that is has a satsifying sequence length in addition to a meaningful sentences. IMDB has large
+reviews but the sentences may or may not be syntatically correct on the other hand ROC dataset is a syntatically correct but has small sequences and thus to overcome this
+problem I merge both of those dataset. But using either of those dataset can also work. 
+
+## How to use bert?
+------
+I have provided the pretrained weights with following configuration
+| Parameter | Value |
+| :---: | :---: |
+| Sequence Length | 64 |
+| Model Size | 128 |
+| Feed Forward Dimension | 128 |
+| Attention Heads | 8 |
+| Multiheaded Attention layers | 2 |
+
+This is cofiguration of my model, for which I have provided a pretrained weights which thus can be finetuned by training for more time over the same dataset as well as some
+others too. 
